@@ -1,5 +1,5 @@
 
-
+// how to get functor?
 fun main() {
     println("Hello, world!!!")
     ShowObj.showPoint().run{ // built-in run method makes the object extension method in-scope
@@ -27,3 +27,9 @@ object ShowObj {
         }
     }
 }
+
+/* 
+interface Functor<T<?>> {
+    fun T<A>.map<A,B>(fun f:)
+}
+*/
